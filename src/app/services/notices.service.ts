@@ -13,7 +13,7 @@ export class NoticesService{
 
   // News API
   // Método que hace la petición a la API Rest NewsAPI
-  /*
+
   getNotice(): Observable<any>{
     let fetch: string = new Date().toISOString();
     console.log(fetch);
@@ -28,15 +28,15 @@ export class NoticesService{
 
     return this.http.get(toret);
   }
-*/
+
 // JasonPlaceHolder
 // Descomentar el siguiente método para hacer uso de la API Rest Jason Place Holder
-
+/*
   getNotice(): Observable<any>{
     let toret: string = 'https://jsonplaceholder.typicode.com/photos';
     console.log(toret);
     return this.http.get(toret);
   }
-
+*/
 }
 

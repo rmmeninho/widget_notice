@@ -1,5 +1,5 @@
 
- <!--News API
+ <!--News API-->
  <div class="container" id="container">
   <div class="container_notice" id="notice_1">
     <div class="image">
@@ -22,6 +22,7 @@
     </div>
   </div>
 </div>
+<!--
 <div class="container" id="container">
   <div class="container_notice" id="notice_3">
     <div class="image">
@@ -38,7 +39,7 @@
 Descomentar el siguiente HTML para hacer uso de la API Rest Jason Place Holder-->
 <!--
 <div class="container" id="container">
-  <div class="container_notice" id="notice_1">
+  <div class="container_notice" id="notice_1" >
     <div class="image">
       <img [src]="this.listNotices[this.notices[0]]['thumbnailUrl']">
     </div>
@@ -60,21 +61,8 @@ Descomentar el siguiente HTML para hacer uso de la API Rest Jason Place Holder--
     </div>
   </div>
 </div>
+
 -->
-<div class="container" id="container">
-  <div class="container_notice" id="notice_1" [ngStyle]="{'transform': this.translate}">
-    <div class="image">
-      <img [src]="this.listNotices[this.h]['thumbnailUrl']">
-    </div>
-    <div class="container_2">
-      <div class="title"><h2>{{this.listNotices[this.h]['title']}}</h2></div>
-      <div class="message"><p>{{this.listNotices[this.h]['id']}}</p></div>
-    </div>
-  </div>
-</div>
-
-
-
 
 
 

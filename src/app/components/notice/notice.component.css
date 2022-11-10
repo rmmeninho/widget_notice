@@ -13,67 +13,18 @@
   width: 500px;
   border: solid 2px black;
   position: relative;
-  transition: linear transform 3s;
+  transition: linear transform 2s;
 }
-/*
-.container_notice{
+
+#notice_1{
   transform: translateX(550px);
 }
 
-.container_notice{
-  transform: translateX(0px);
- }
-
-@if(.container_notice(positon == 0px)){
- .container_notice{
-    transform: translateX(-550px);
-  }
-}
-*/
-
-/**
- #notice_1{
-  animation: mymove_1 27s infinite;
-  animation-play-state: paused;
- }
-
- #notice_2{
-  animation: mymove_2 27s infinite;
-  animation-play-state: paused;
- }
- #notice_3{
-  animation: mymove_3 27s infinite;
-  animation-play-state: paused;
- }
-
-@keyframes mymove_1 {
-  0%   {right: -550px;}
-  5%   {right: 40px;}
-  10%  {right: 10px;}
-  35%  {right: 10px;}
-  40%  {right: -550px;}
-  100% {right: -550px;}
+#notice_2{
+  transform: translateX(550px);
 }
 
-@keyframes mymove_2 {
-  0%   {right: -550px;}
-  25%  {right: -550px;}
-  35%  {right: 40px;}
-  40%  {right: 10px;}
-  65%  {right: 10px;}
-  70%  {right: -550px;}
-  100% {right: -550px;}
-}
 
-@keyframes mymove_3 {
-  0%   {right: -550px;}
-  60%  {right: -550px;}
-  65%  {right: 40px;}
-  70%  {right: 10px;}
-  95%  {right: 10px;}
-  100% {right: -550px;}
-}
-*/
 .image{
   width: 40%;
   height: 100%;
